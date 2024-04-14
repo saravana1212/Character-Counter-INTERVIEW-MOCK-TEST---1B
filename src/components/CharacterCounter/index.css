@@ -1,0 +1,87 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.character-count-card {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counts-card {
+  background-color: #ffc533;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  font-size: 38px;
+  font-family: roboto;
+  font-weight: 800;
+  color: #272c47;
+  padding: 20px;
+}
+.ul-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 85%;
+  background-color: #ffc533;
+  height: 80%;
+  padding: 10%;
+}
+.image {
+  height: 90%;
+  width: 80%;
+}
+.characters-inputs-card {
+  background-color: #0f172a;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.characters-heading {
+  color: #ffbf1f;
+  font-size: 38px;
+  font-family: roboto;
+  font-weight: 800;
+}
+.input-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-top: 20px;
+}
+.input {
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 70%;
+  color: #272c47;
+  padding-left: 20px;
+  font-size: 20px;
+  border-width: 0px;
+  outline: none;
+}
+.button {
+  background-color: #ffbf1f;
+  color: #0f172a;
+  height: 40px;
+  width: 20%;
+  border-radius: 5px;
+  font-size: 15px;
+}
